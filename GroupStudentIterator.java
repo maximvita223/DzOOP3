@@ -8,6 +8,7 @@ public class GroupStudentIterator implements Iterator<Student> {
     public GroupStudentIterator(List<Student> groupStudents) {
         this.groupStudents = groupStudents;
     }
+
     @Override
     public boolean hasNext() {
         return index < groupStudents.size() - 1;

@@ -3,7 +3,6 @@ import java.util.ListIterator;
 public class GroupListIterator implements ListIterator<Student> {
     private int index = -1;
     private GroupStudent studentList;
-    
 
     public GroupListIterator(GroupStudent studentList) {
         this.studentList = studentList;

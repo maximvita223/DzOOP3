@@ -9,10 +9,12 @@ public class Main {
         Student student1 = new Student("Егор", "Егоров", 4.5f);
         Student student2 = new Student("Иван", "Иванов", 3.6f);
         Student student3 = new Student("Петр", "Петров", 4.9f);
+
         List<Student> groupStudents = new ArrayList<>();
         groupStudents.add(student1);
         groupStudents.add(student2);
         groupStudents.add(student3);
+        
         GroupStudent studentGroup = new GroupStudent(groupStudents);
         Iterator<Student> it = studentGroup.iterator();
         while (it.hasNext()) {
